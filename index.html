@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Langing Page PTIT </title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="header_nav">
+            <div class="header_logo">
+                <img src="./images/logo.svg" alt="" class="header_logo_image">
+            </div>
+            <div class="header_nav_menu">
+                <div class="header_nav_home header_nav_title underline">Trang chủ</div>
+                <div class="header_nav_feature header_nav_title">Tính năng</div>
+                <div class="header_nav_product header_nav_title">Sản phẩm thực tế</div>
+            </div>
+        </div>
+    </div>
+    <div class="title">
+        <div class="title_header">
+            <div class="title_header1">Bản đồ số có tương tác</div>
+            <div class="title_header2">Trên nền tảng di động và website</div>
+        </div>
+    </div>
+    <div class="homebg">
+        <img class="homebg_image" src="./images/homebg.png" alt="">
+    </div>
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    
+    $(".header_nav_title" ).click(function() {
+        $(".header_nav_title").removeClass("underline");
+        $(this).addClass("underline");
+    });
+</script>
+</html>

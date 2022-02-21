@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;300;400;500;600;700;800&display=swap');
+
+*{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    scrollbar-width: none;
+    overflow-x: hidden;
+}
+body{
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    margin: 0;
+    background: #FFFFFF;
+    width: 100vw;
+}
+.header_nav{
+    margin:13px 180px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_logo_image{
+    height: auto;
+}
+.header_nav_menu{
+    display: flex;
+    text-align: end;
+}
+.header_nav_title{
+    margin-left: 32px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    color: #000000;
+    cursor: pointer;
+}
+.underline{
+    text-decoration-line: underline;
+}
+.title{
+    margin: 0;
+    height: 242px;
+    width: 100vw;
+    background-color: #D4ECEE;
+    display: grid;
+    align-items: center;
+}
+.title_header{
+    text-align:center;
+}
+.homebg_image{
+    width: 100vw;
+    margin: 0;
+}
+.title_header1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 3.8125rem;
+    color: #642E77;
+}
+.title_header2{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 1.875rem;
+    color: #642E77;
+}
