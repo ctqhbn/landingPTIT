@@ -84,5 +84,42 @@ body{
     line-height: 61px;
     line-height: 3.8125rem;
     color: #7E518E;
-
+}
+.container{
+    margin-top: 105px;
+    width: calc(100% - 240px);
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.container_column{
+    display: grid;
+    column-gap: 17%;
+    grid-template-columns: 22% 22% 22%;
+}
+.column_title{
+    margin-top: 35px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 1.875rem;
+    color: #7E518E;
+}
+.column_description{
+    margin-top: 1rem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 1.6875rem;    
+    color: #6B6B6B;
+    text-align: justify;
+}
+.feature{
+    margin-top: 180px;
+}
+@media screen and (min-width: 1441px) {
+    .container{
+        width: calc(100% - 328px);
+        margin-left: 164px;
+        margin-right: 164px;
+    }
 }
