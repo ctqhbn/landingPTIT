@@ -116,10 +116,12 @@ body{
 .feature{
     margin-top: 180px;
     width: 100vw;    
+    height: 580px;
 }
 .feature_image{
     position: absolute;
     width: 100vw;
+    height: 580px;
 }
 .feature_container{
     position: absolute;
@@ -152,6 +154,33 @@ body{
 .building_image{
     width: 580px;
     margin-right: 48px;
+}
+.feature_mobile{
+    width: 100vw;
+    height: auto;
+    margin-top: 132px;
+}
+.feature_mobile_title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 3.8125rem;
+    text-align: center;
+    color: #7E518E;
+}
+.feature_mobile_description{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;    
+    text-align: center;
+    color: #6B6B6B;
+    margin-top: 30px;
+    margin-bottom: 48px;
+}
+.mobile_image{
+    width: 100vw;
+    height: auto;
 }
 
 @media screen and (min-width: 1441px) {
