@@ -96,6 +96,35 @@
             <img class="mobile_image" src="/images/mobile_demo.png" alt="">
         </div>
     </div>
+    <div class="video_container">
+        <div class="video">
+            <video width="100%" controls>
+                <source src="/videos/video.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="joinnow">
+            <div class="joinnow_container">
+                <div class="joinnow_title">
+                    Tham quan sản phẩm<br> của chúng tôi
+                </div>
+                <div class="btn_next">
+                    <img src="/images/btn_next.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="end_line"></div>
+        <div class="footer">
+            <div class="footer_container">
+                <div class="footer_logo">
+                    <img src="/images/logo.svg" alt="">
+                </div>
+                <div class="footer_description">
+                    Một sản phẩm của Học viện Công nghệ Bưu chính Viễn thông (Miền Bắc)<br>
+                    Km 10, Nguyễn Trãi, Hà Đông, Hà Nội
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -105,5 +134,9 @@
         $(".header_nav_title").removeClass("underline");
         $(this).addClass("underline");
     });
+    $(".joinnow" ).click(function() {
+        window.location.href = 'http://mapptit.herokuapp.com/map.html';
+    });
+    
 </script>
 </html>
