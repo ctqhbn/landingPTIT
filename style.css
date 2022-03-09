@@ -265,6 +265,7 @@ body{
         background-image: url("/images/homebg1.png");
         background-size:100% auto;
         overflow: hidden;
+        background-repeat: no-repeat;
     }
 }
 
@@ -305,6 +306,7 @@ body{
         background-repeat: no-repeat;
     }
     .section2_title{
+        margin-top: 16px;
         font-size: 1.5rem;
         line-height: 1.875rem;
         margin-top: 60px;
@@ -332,10 +334,10 @@ body{
         line-height: 1.25rem;
     }
     .feature{
-        margin-top: 36px;
-        width: 100vw;    
-        background-image: url("/images/bg_feature_mobile.png");
-        height: 400px;
+        margin-top: 44px;
+        width: 100vw;
+        background-image: url('/images/bg_feature_mobile.png');
+        height: 610px;
         background-position: center;
         background-repeat: no-repeat;
         background-size: 100vw auto;
@@ -408,5 +410,15 @@ body{
     }
     .footer_description_mobile{
         display: block;
+    }
+    .feature_container{
+        margin-top: 336px;
+    }
+    .feature_description{
+        margin-top: 8px;
+        text-align: justify;
+    }
+    .feature_mobile{
+        margin-top: 48px;
     }
   }
