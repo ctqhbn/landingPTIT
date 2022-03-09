@@ -9,6 +9,7 @@ body{
     width: 100vw;
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 .header{
     margin: 0;
@@ -59,6 +60,9 @@ body{
 .homebg_image{
     width: 100vw;
     margin: 0;
+    background-image: url('/images/homebg.png');
+    min-height: 886px;
+    background-size: 100% 100%;
 }
 .title_header1{
     font-style: normal;
@@ -116,18 +120,21 @@ body{
     text-align: justify;
 }
 .feature{
-    margin-top: 180px;
     width: 100vw;    
-    height: 580px;
+    background-image: url("/images/bg_feature1.png");
+    height: 740px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .feature_image{
     position: absolute;
     width: 100vw;
-    height: 580px;
+    min-height: 740px;
 }
 .feature_container{
     position: absolute;
-    margin-top: 92px;
+    margin-top: 252px;
     margin-left: 124px;
 }
 .feature_title{
@@ -232,6 +239,12 @@ body{
 .footer_description{
     color:#767676;
 }
+.footer_description_mobile{
+    color:#767676;
+    display: none;
+    font-size: 0.625rem;
+}
+
 @media screen and (min-width: 1441px) {
     .container{
         width: calc(100% - 328px);
@@ -241,4 +254,159 @@ body{
     .feature_container{
         margin-left: 164px;
     }
+    .feature{
+        width: 100vw;    
+        background-image: url("/images/bg_feature2.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .homebg_image{
+        background-image: url("/images/homebg1.png");
+        background-size:100% auto;
+        overflow: hidden;
+    }
 }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .header{
+        height: 68px;
+        overflow-y: hidden;
+    }
+    .header_nav{
+        margin:13px 0;
+    }
+    .header_nav_menu{
+        display: none;
+    }
+    .header_logo_image{
+        width: 64px;
+        margin-left: 16px;
+    }
+    .title{
+        margin-top: 56px;
+        height: 148px;
+    }
+    .title_header1{
+        font-size: 1.5rem;
+        line-height: 1.875rem;
+    }
+    .title_header2{
+        font-size: 1rem;
+    }
+    .homebg{
+        height: 400px;
+        overflow: hidden;
+    }
+    .homebg_image{
+        background-image: url("/images/homebg_mobile.png");
+        background-size:100% auto;
+        background-repeat: no-repeat;
+    }
+    .section2_title{
+        font-size: 1.5rem;
+        line-height: 1.875rem;
+        margin-top: 60px;
+    }
+    .container{
+        margin: 0px 36px 0 36px;
+        width: calc(100% - 72px);
+    }
+    .container_column{
+        display: block;
+    }
+    .column_image{
+        margin-top: 40px;
+        width: 50px;
+        height: auto;
+    }
+    .column_title{
+        margin-top: 16px;
+        font-size: 1.125rem;
+        line-height: 1.4375rem;
+    }
+    .column_description{
+        margin-top: 10px;
+        font-size: 1rem;
+        line-height: 1.25rem;
+    }
+    .feature{
+        margin-top: 36px;
+        width: 100vw;    
+        background-image: url("/images/bg_feature_mobile.png");
+        height: 400px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100vw auto;
+    }
+    .feature_container{
+        text-align: center;
+        margin-left: 0;
+    }
+    .feature_title{
+        font-size: 1.5rem;
+        line-height: 1.875rem;
+    }
+    .feature_description{
+        font-size: 1rem;
+        line-height: 1.5rem;
+        text-align: center;
+        margin-left: 34px;
+        margin-right: 34px;
+        width: calc(100% - 68px);    
+    }
+    .feature_mobile_title{
+        font-size: 1.5rem;
+        line-height: 1.875rem;
+    }
+    .feature_mobile_description{
+        font-size: 1rem;
+        line-height: 1.25rem;
+        margin-left: 32px;
+        margin-right: 32px;
+        width: calc(100% - 64px);
+        margin-top: 8px;
+        margin-bottom: 16px;
+    }
+    .video_container{
+        margin-top: 28px;
+        margin-left: 32px;
+        margin-right: 32px;
+        width: calc(100% - 64px);
+    }
+    .joinnow{
+        margin-top: 16px;
+        height: 72px;
+    }
+    .joinnow_title{
+        font-size: 1rem;
+        line-height: 1.25rem;
+    }
+    .joinnow_container {
+        width: calc(100% - 32px);
+        display: flex;
+        align-items: center;
+        height: 72px;
+        margin-left: 16px;
+        justify-content: space-between;
+    }
+    .btn_next_image{
+        width: 32px;
+        height: auto;
+    }
+    .end_line{
+        margin-top: 64px;
+    }
+    .footer_container{
+        display: block;
+        text-align: center;
+        margin-bottom: 48px;
+    }
+    .footer_description{
+        display: none;
+    }
+    .footer_description_mobile{
+        display: block;
+    }
+  }
